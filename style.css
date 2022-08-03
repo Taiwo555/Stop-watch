@@ -1,0 +1,53 @@
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.container{
+    width: 100px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: center;
+}
+h1,
+ h2, 
+ h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+.clock{
+    width: 200px;
+    height: 200px;
+   margin-left: -50px;
+}
+#seconds,
+#ten{
+font-size: 2em;
+}
+.btn-stop{
+    
+margin-top: -100px;
+margin-left: -150px;
+}
+.btn-reset{
+    margin-top: -100px;
+margin-left: -150px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+button:hover{
+    background-color: #fff;
+    color: green;
+    font-weight: 800;
+    text-transform: capitalize;
+}
